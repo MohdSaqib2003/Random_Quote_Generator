@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border-left: 150px solid gray;
+  border-right: 150px solid gray;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  body {
+    border-left: 0px solid gray;
+    border-right: 0px solid gray;
+    
+  }
 }
